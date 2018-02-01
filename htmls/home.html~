@@ -1,0 +1,79 @@
+<html>
+
+<head>
+		<title>Leave Application Management System</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="Free, Leave, Application, Monitoring, Leave Management Tracking">
+		<meta name="author" content="root" >
+		<meta name="description" content="Leave Application Management System">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="http://localhost/wt/">
+		
+		<link rel="stylesheet" href="css/homeCss.css">
+		
+		<!-- Icon Library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  	
+  		<script type="text/javascript" src="js/home.js"></script> 
+  		<script type="text/javascript">
+   
+   /*
+   *	 General Script goes here
+   *
+   */
+  		</script>
+</head>
+<body>
+	<img class="headImage" src="headImg1.jpg">
+	<div>
+		<h3>HR-ism</h3>
+		<p>An Online Staff Leave Management System</p>
+	</div>
+	<div id="myTopnav" class="topnav">
+			<a href="#home" class="active">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+ 			<a href="#about">About</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+	
+	<div class="card" >
+		<img src="profileImages/profile.jpg" alt="Profile Pic" style="width:100%">
+		<h1>Sunil Madhyan</h1>
+		<p class="title">CEO & Founder, HR-ism</p>
+		<p>PICT PUNE</p>
+		<a href="#"><i class="fa fa-dribbble"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<p><button>Edit Profile</button><p>
+	</div>
+
+	<div class="card" style="max-width:100%; display: block;float: left; word-wrap: break-word; overflow-x: hidden;" >
+		<div id="leaveBalance" class="tabs">
+			Leave Balance
+		</div>
+		<div id="leaveRequest" class="tabs">
+			Requested Leaves
+		</div>
+		<div class="tabContent">
+			<div>
+			<p class="leaveType">Annual Leave</p>
+			<p class="daysRemain"><a>8 Days</a></p>			
+			<p><img src="" alt="icon" width="10px" height="10px"></p>
+			<p><button class="applyLeave">Apply Leave</button></p>
+		</div>
+		</div>
+	</div>
+	
+	
+<!--	<div class="card" style="">
+		<h1>News Feed</h1>
+		<p>Today's Special- You all granted a weekend holidays of 4 days from thursday(2nd feb) to Monday(5th feb). Have a nice weekend.</p>
+	</div>
+	-->
+</body>
+</html>
